@@ -1,21 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
+import React from 'react';
 
-        h1 {
-            text-align: center;
-        }
-    </style>
-</head>
-<body>
-    <h1>Hello World</h1>
-</body>
-</html>
+const MyComponent: React.FC = () => {
+  return (
+    <div style={{
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      height: '100vh',
+      margin: 0
+    }}>
+      <h1 style={{ textAlign: 'center' }}>Hello World</h1>
+    </div>
+  );
+}
+
+export default MyComponent;
