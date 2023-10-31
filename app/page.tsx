@@ -106,8 +106,8 @@ export default function Home() {
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             Instantly deploy your Next.js site to a shareable URL with Vercel.
             <nav>
-            <a className = "button" href="buttontest.tsx">Hello World</a>
-          </nav>
+              <a className = "button" href="buttontest.tsx">Hello World</a>
+            </nav>
           </p>
         </a>
       </div>
