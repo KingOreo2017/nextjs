@@ -108,8 +108,7 @@ export default function Home() {
           </p>
         </a>
         <p>
-          <a href="/app/buttontest.tsx" target="_blank">View buttontest.tsx</a>
-              <div className = "button">Hello World</div>
+          <a href="/app/buttontest.tsx" target="_blank">Hello World</a>
         </p>
       </div>
     </main>
