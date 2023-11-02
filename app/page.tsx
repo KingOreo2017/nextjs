@@ -109,7 +109,22 @@ export default function Home() {
         <p>
           <a href="/buttontest.htm" target="_blank">Hello World</a>
         </p>
+        <p>
+          
+        </p>
       </div>
+      <script>
+      
+        document.addEventListener('DOMContentLoaded', () => {
+        const textBox = document.getElementById('textBox') as HTMLInputElement;
+        const typedText = document.getElementById('typedText') as HTMLSpanElement;
+
+        textBox.addEventListener('input', (event) => {
+        const inputValue = (event.target as HTMLInputElement).value;
+        typedText.textContent = `You typed: ${inputValue}`;
+        });
+      });
+      </script>
     </main>
   )
 }
