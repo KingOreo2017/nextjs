@@ -108,7 +108,7 @@ export default function Home() {
           </p>
         </a>
         <p>
-          <a href="/buttontest.tsx" target="_blank">Hello World</a>
+          <a href="/buttontest.htm" target="_blank">Hello World</a>
         </p>
       </div>
     </main>
