@@ -19,9 +19,8 @@ export default function Home() {
             <Image
               src="/download.jfif"
               alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
+              width={250}
+              height={60}
               priority
             />
           </a>
