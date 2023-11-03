@@ -54,6 +54,21 @@ export default function Home() {
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             This is a test. Hello World.
           </p>
+          <p>
+            <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Text Box Example</title>
+          </head>
+          <body>
+            <input type="text" id="textBox">
+              <button id="submitButton">Submit</button>
+
+              <div id="output"></div>
+
+              <script src="main.js"></script>
+          </body>
+          </p>
         </a>
 
         <a
