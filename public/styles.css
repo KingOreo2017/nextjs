@@ -1,0 +1,33 @@
+/* Apply styles to the body element */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply styles to the anchor (a) element */
+a {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+/* Apply styles to the input element with the ID "testInput" */
+#testInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+/* Apply hover styles to the anchor (a) element */
+a:hover {
+  color: #0056b3;
+}
+
+/* Apply hover styles to the input element with the ID "testInput" */
+#testInput:hover {
+  border: 1px solid #999;
+  background-color: #f8f8f8;
+}
