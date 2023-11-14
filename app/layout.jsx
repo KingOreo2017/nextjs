@@ -12,11 +12,11 @@ const metadata = {
 function RootLayout({
   children,
 }) {
-  return `
+  return (
     <html lang="en">
       <body class="${inter.className}">${children}</body>
     </html>
-  `;
+  );
 }
 
 export { metadata, RootLayout };
