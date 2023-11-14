@@ -28,3 +28,4 @@ function RootLayout({ children }) {
 
 // Export the corrected components
 export { metadata, RootLayout };
+console.log("Code ran!")
